@@ -31,6 +31,9 @@ public class Studs {
 			System.out.println(an.previous());
 		}
 	}
+	
+	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

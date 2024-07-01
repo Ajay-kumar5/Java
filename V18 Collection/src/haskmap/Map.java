@@ -1,6 +1,8 @@
 package haskmap;
 
 import java.util.HashMap;
+import java.util.Set;
+import java.util.TreeMap;
 
 public class Map {
 
@@ -37,11 +39,29 @@ public class Map {
 		
 		
 		 	}
+	
+	void T()
+	{
+		TreeMap<Integer, String> S = new TreeMap<Integer, String>();
+		S.put(01,"AJAY");
+		S.put(105,"Harish");
+		S.put(102, "Nithish");
+		S.put(104,"Bala");
+		
+		
+		for(Integer A : S.keySet())
+		{
+			System.out.println(A + " "+S.get(A));
+		}
+		
+	}
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		Map obj = new Map();
-		obj.M();
+		obj.T();
 	}
 
 }
