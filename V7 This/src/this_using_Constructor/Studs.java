@@ -12,6 +12,8 @@ public class Studs {
 	Studs(int a)
 	{
 		System.out.println("Mark");
+		System.out.println(a);
+
 	}
 
 	public static void main(String[] args) {

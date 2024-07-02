@@ -13,11 +13,12 @@ public class File_read {
 			
 			Scanner a = new Scanner(f);
 			
-			while(a.hasNext())
+			while(a.hasNextLine())
 			{
-				System.out.println(a.next());
+				System.out.println(a.nextLine());
 			}
 		}
+	
 		catch
 		{
 			finally
